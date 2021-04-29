@@ -48,7 +48,6 @@
                                 <state key="normal" title="次のお題へ"/>
                                 <connections>
                                     <action selector="nextOdai:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OMq-8T-SLQ"/>
-                                    <action selector="searchAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zhd-C1-PpL"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IZ2-bU-dnX">
@@ -67,7 +66,6 @@
                         <outlet property="commentTextView" destination="uiT-H5-Vn6" id="ybE-Sp-IHa"/>
                         <outlet property="odaiImageView" destination="rpA-s0-5V4" id="bd1-Uw-5HH"/>
                         <outlet property="searchTextField" destination="E6g-YS-xgc" id="8E2-tg-pv6"/>
-                        <outlet property="searrch" destination="E6g-YS-xgc" id="lra-0W-Ewn"/>
                         <segue destination="yth-hl-62k" kind="presentation" identifier="next" modalPresentationStyle="fullScreen" id="EfR-qL-Qdz"/>
                     </connections>
                 </viewController>
